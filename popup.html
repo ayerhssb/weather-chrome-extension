@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather extension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="location">
+        <span id="text-location"></span>
+        <sup id="text-location-country"></sup>
+    </p>
+
+    <div class="temp">
+        <span id="text-temp"></span>
+        <sup> <sup>o</sup> C</sup>
+    </div>
+
+    <div class="temp-feels-like">Feels like <span id="text-feels-like">  </span>
+        <sup><sup>o</sup> C</sup> 
+    </div>
+
+    <img id="icon">
+    <p id="text_desc"></p>
+</body>
+
+<script src="fetchData.js"></script>
+</html>
