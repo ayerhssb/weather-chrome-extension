@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Weather-App",
+    "description": "Displays real time Weather",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "weather-icon.png"
+    },
+    "permissions": ["activeTab", "geolocation"]
+
+  }
